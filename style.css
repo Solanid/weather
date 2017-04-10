@@ -1,0 +1,57 @@
+* {
+	/* outline: 1px solid red; */
+}
+
+body {
+	position:absolute; 
+    width: calc(100vw - 17px);
+    height: 600px;
+    top:0; 
+    bottom:0;
+    margin:auto;
+}
+
+.location-selection {
+	margin-top: 20px;
+}
+
+.weather-table {
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.btn-div {
+	margin: 0 auto;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+form {
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 1300px) {
+	#btn-ok {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	#btn-ok {
+		width: 100%;
+	}
+}
+
+.message {
+	clear: left;
+	margin: auto;
+	width: 242px;
+	font-size: 18px;
+}
+
+td:nth-child(2) {
+	text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Global Weather</title>
+	<script src="jquery-3.1.1.min.js"></script>
+	<link href="https://cdn.muicss.com/mui-0.9.9-rc2/css/mui.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.muicss.com/mui-0.9.9-rc2/js/mui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jscript.js"></script>
+</head>
+<body>
+	<header class="mui-row">
+		<span>
+			<h1>Global Weather</h1>		
+		</span>
+	</header>
+	<selection class="mui-row location-selection">
+		<form class="mui-form mui-col-md-6 mui-col-md-offset-3 selectform">
+			<div class="mui-col-md-5 mui-select">
+	            <label>Country</label>
+	            <select id="select-country">
+	                <option value="">Enter Country</option>
+	            </select>
+	        </div>
+	        <div class="mui-col-md-5 mui-select">
+	            <label>City</label>
+	            <select id="select-city">
+	                <option value="">Enter City</option>
+	            </select>
+	    	</div>
+	    	<div class="mui-col-md-2 btn-div">
+	            <button class="mui-btn mui-btn--primary" id="btn-ok">OK</button>
+	    	</div>
+		</form>
+	</selection>
+
+	<article class="mui-row">
+		<div class="mui-col-md-4 mui-col-md-offset-4 weather-div">
+			<table class="mui-table weather-table"></table>
+		</div>
+	</article>
+
+
+</body>
+</html>
